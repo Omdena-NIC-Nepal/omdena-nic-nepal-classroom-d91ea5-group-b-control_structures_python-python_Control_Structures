@@ -30,7 +30,7 @@ def import_notebook_module(notebook_path):
     return module
 
 # Then use in tests
-assignment = import_notebook_module('../assignment.ipynb')
+assignment = import_notebook_module('assignment.ipynb')
 
 def test_while_loop_even_numbers(capsys):
     """Test the while loop for printing even numbers up to 16"""
